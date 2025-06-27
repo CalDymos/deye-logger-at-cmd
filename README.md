@@ -8,7 +8,8 @@ Only use this tool for devices you own!
 - Download release from https://github.com/s10l/deye-logger-at-cmd/releases
 - Open a terminal window and browse to downloaded file
 - Run the command below, but change the ip to the ip of the inverter
-`main -t 192.168.0.20:48899 -xat AT+WEBU=admin,admin`
+(Go) `main -t 192.168.0.20:48899 -xat AT+WEBU=admin,admin` or
+(Python) `python3 main.py -t 192.168.0.20:48899 -xat AT+WEBU=admin,admin` 
 - Try to login with username: **admin** and password: **admin**
 - Voila, but rember to do this only with devices you own!
 
